@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, input,   } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-restaurant',
@@ -6,18 +6,12 @@ import { Component, OnInit, Input, input,   } from '@angular/core';
   styleUrls: ['./restaurant.component.scss'],
 })
 export class RestaurantComponent  implements OnInit {
+  @Input() restaurant: any;
   constructor() { }
-  @Input() restaurant : any;
-  ngOnInit() {
 
-  
-  
-  }
+  ngOnInit() {}
 
   getCuisine(cuisine){
     return cuisine.join(', ');
   }
-
 }
-
-
