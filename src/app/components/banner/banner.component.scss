@@ -1,9 +1,9 @@
 div{
-    margin-top: 18px;
+    margin-top: 10px;
     height: 30vh;
     width: 94%;
-    swiper-container{
-        --swiper-pagination-color:var(--ion-color-primary);
+    swiper-contasiner{
+        --swiper-pagination-color: var(--ion-color-primary);
         swiper-slide{
             height: 27vh;
             img{
@@ -15,8 +15,3 @@ div{
         }
     }
 }
-
-ion-row{
-    margin-top: 10px;
-  }
-  

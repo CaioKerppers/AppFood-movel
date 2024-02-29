@@ -18,7 +18,7 @@ import { ComponentsModule } from 'src/app/components/components.module';
     HomePageRoutingModule,
     ComponentsModule
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA],
   declarations: [HomePage, BannerComponent]
 })
 export class HomePageModule {}

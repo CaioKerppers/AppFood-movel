@@ -1,7 +1,5 @@
 {
   "name": "AppFood",
-  "integrations": {
-    "capacitor": {}
-  },
+  "integrations": {},
   "type": "angular"
 }
